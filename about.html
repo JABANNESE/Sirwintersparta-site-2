@@ -1,62 +1,131 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>About - SirWinterSparta</title>
-  <link rel="stylesheet" href="style.css">
+  <title>Sirwintersparta | About</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: url("assets/images/about-bg.jpg") no-repeat center center fixed;
+      background-size: cover;
+      color: #fff;
+    }
+
+    /* Navbar */
+    .navbar {
+      background-color: rgba(0, 0, 0, 0.85);
+      padding: 10px 0;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    .navbar ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+    }
+
+    .navbar ul li {
+      margin: 0 20px;
+    }
+
+    .navbar ul li a {
+      text-decoration: none;
+      color: #fff;
+      font-weight: bold;
+      font-size: 16px;
+      transition: color 0.3s;
+    }
+
+    .navbar ul li a:hover {
+      color: orange;
+    }
+
+    /* About Section */
+    .about-section {
+      padding: 80px 20px;
+      text-align: center;
+      background-color: rgba(0,0,0,0.5);
+      border-radius: 12px;
+      max-width: 900px;
+      margin: 50px auto;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.6);
+    }
+
+    .about-section h1 {
+      font-size: 40px;
+      margin-bottom: 20px;
+      text-shadow: 2px 2px 6px #000;
+    }
+
+    .about-section p {
+      font-size: 18px;
+      line-height: 1.8;
+      margin-bottom: 15px;
+    }
+
+    /* Footer */
+    footer {
+      background-color: rgba(0, 0, 0, 0.9);
+      text-align: center;
+      padding: 15px;
+      margin-top: 40px;
+    }
+
+    footer p {
+      margin: 0;
+      font-size: 14px;
+      color: #bbb;
+    }
+  </style>
 </head>
 <body>
   <!-- Navbar -->
-  <header>
-    <nav class="navbar">
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html" class="active">About</a></li>
-        <li><a href="packages.html">Packages</a></li>
-        <li><a href="gallery.html">Gallery</a></li>
-        <li><a href="blog.html">Blog</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
+  <nav class="navbar">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="packages.html">Packages</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
 
-  <!-- Hero -->
-  <section class="hero about-hero">
-    <div class="overlay">
-      <h1>About Us</h1>
-      <p>Our journey, our vision, our culture.</p>
-    </div>
-  </section>
-
-  <!-- Content -->
-  <section class="page-content">
-    <h2>Who We Are</h2>
+  <!-- About Section -->
+  <section class="about-section">
+    <h1>About Sirwintersparta</h1>
     <p>
-      SirWinterSparta is more than just a brand — it is a movement rooted in the matatu
-      culture of Kenya, road trip adventures, and storytelling that brings people together.
+      Sirwintersparta is more than a brand — it’s a cultural movement.  
+      We bring together the raw energy of matatu culture, the thrill of travel,  
+      and the timeless art of storytelling. Our mission is to create experiences  
+      that connect people across roads, cities, and borders.
     </p>
     <p>
-      Our mission is to merge <strong>art, culture, and tourism</strong> into experiences that inspire,
-      educate, and entertain. From matatu-inspired digital art to curated road trips across
-      Africa, we live and breathe the spirit of connection.
+      From digital products and street-inspired fashion, to unforgettable  
+      tours and creative storytelling, we exist where culture meets adventure.  
+      Every image, every ride, every design reflects the heartbeat of the streets  
+      and the soul of the journey.
     </p>
     <p>
-      Founded with the belief that roads are not just pathways but meeting grounds of cultures,
-      SirWinterSparta continues to grow into a global brand that embodies creativity,
-      innovation, and community.
+      Welcome to our world. This is Sirwintersparta:  
+      <strong>Where Roads Meet Cultures.</strong>
     </p>
   </section>
-
-  <!-- Footer -->
-      <footer>
+           <!-- Footer -->
+    <footer>
     <div class="footer-links">
       <p>Follow Us:</p>
       <a href="https://www.fb.com/l/6lp1kJRRR" target="_blank">Facebook</a> |
       <a href="https://www.instagram.com/sirwintersparta?igsh=MXE1dHVwZHZ1d3g1OA==" target="_blank">Instagram</a> |
       <a href="https://x.com/sirwintersparta?s=09" target="_blank">Twitter</a> |
-      <a href="https://www.tiktok.com/@sirwintersparta?_t=ZM-8zP9eENfIGe&_r=1" target="_blank">TikTok</a> 
-      <a href="https://pin.it/1aoHDrz2s" target="_blank">pinterest</a>
+      <a href="https://www.tiktok.com/@sirwintersparta?_t=ZM-8zP9eENfIGe&_r=1" target="_blank">TikTok</a> |
+      <a href="https://pin.it/1aoHDrz2s" target="_blank">Pinterest</a>
     </div>
 
     <div class="footer-stores">
@@ -69,10 +138,9 @@
 
     <div class="footer-contact">
       <p>Email: iyusuf35@yahoo.com</p>
-      <p>Mpesa lipa na poch Till: 0725358159 | PayPal Merchant ID:LGK2QMM67ZZNS</p>
-      <p>phone contacts: +254 700 160161/+254 725358159
-         </p>
+      <p>Mpesa lipa na poch Till: 0725358159 | PayPal Merchant ID: LGK2QMM67ZZNS</p>
+      <p>Phone contacts: +254 700 160161/+254 725358159</p>
      </div>
-  </footer>
+    </footer>
 </body>
 </html>
